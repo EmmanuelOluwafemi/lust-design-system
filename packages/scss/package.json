@@ -1,0 +1,38 @@
+{
+  "name": "@lust/scss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {
+    "husky": "^7.0.0",
+    "lint-staged": "^13.0.1",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2",
+    "sass": "^1.52.3",
+    "stylelint": "^14.9.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-prettier": "^2.0.0"
+  },
+  "scripts": {
+    "lint": "stylelint ./**/*.scss",
+    "lint:fix": "yarn lint --fix",
+    "build": "node src/scripts/build.js",
+    "dev": "nodemon --watch src --exec yarn build -e scss",
+    "prepare": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.scss": "yarn lint --fix"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,32 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Seek9\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev lerna
+
+PATH: 
+  C:\Users\Seek9\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Seek9\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts;C:\Python310;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Users\Seek9\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\OpenJDK\openjdk-11.0.14.1_1\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Users\Seek9\.windows-build-tools\python27;C:\Users\Seek9\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\Seek9\AppData\Roaming\npm\node_modules\node_modules\.bin;C:\Users\Seek9\AppData\Roaming\npm\node_modules\.bin;C:\Users\Seek9\AppData\Roaming\node_modules\.bin;C:\Users\Seek9\AppData\node_modules\.bin;C:\Users\Seek9\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts;C:\Python310;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\Seek9\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs;C:\Users\Seek9\AppData\Local\Microsoft\WindowsApps;C:\Users\Seek9\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Seek9\AppData\Roaming\Composer\vendor\bin;C:\Users\Seek9\AppData\Local\Android\Sdk\platform-tools;C:\Users\Seek9\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "@lust/code",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

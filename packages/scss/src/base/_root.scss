@@ -1,0 +1,34 @@
+:root {
+  --lust-body-text-color: #{$dark};
+  --lust-body-bg-color: #{$white};
+
+  --lust-btn-primary-color: #{$white};
+  --lust-btn-primary-bg: #{$green};
+  --lust-btn-primary-bg-hover: #{$green-light};
+
+  --lust-btn-secondary-color: #{$white};
+  --lust-btn-secondary-bg: #{$dark};
+
+  --lust-form-color: #{$dark};
+  --lust-form-bg: #{$white};
+  --lust-form-error-color: #{$red};
+  --lust-form-error-border: #{$red-light};
+  --lust-form-border-focus-color: #{$green};
+
+  --lust-body-font-size: #{$fs-base};
+  --lust-body-font-weight: #{$fw-normal};
+
+  --lust-h1-font-size: #{$h-1};
+  --lust-h2-font-size: #{$h-2};
+  --lust-h3-font-size: #{$h-3};
+  --lust-h4-font-size: #{$h-4};
+  --lust-h5-font-size: #{$h-5};
+  --lust-h6-font-size: #{$h-6};
+
+  --lust-h1-text-weight: #{$fw-black};
+  --lust-h2-text-weight: #{$fw-semibold};
+  --lust-h3-text-weight: #{$fw-bold};
+  --lust-h4-text-weight: #{$fw-medium};
+  --lust-h5-text-weight: #{$fw-normal};
+  --lust-h6-text-weight: #{$fw-light};
+}

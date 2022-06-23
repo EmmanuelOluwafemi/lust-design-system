@@ -1,0 +1,12 @@
+@import "foundation/all";
+
+.lust-button__container {
+    display: flex;
+
+    background: $btn-primary-bg;
+    color: $btn-primary-color;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: map-get($spacing, "xxxs");
+}

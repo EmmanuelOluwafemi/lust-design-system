@@ -1,0 +1,15 @@
+@import "foundation/all";
+
+$sides: left, right, top, bottom;
+
+@each $space, $value in $spacing {
+    .lust-margin-#{$space} {
+        margin: $value;
+    }
+
+    @each $side in $sides {
+        .lust-margin-#{$side}-#{$space} {
+            margin-#{$side}: $value;
+        }
+    }
+}

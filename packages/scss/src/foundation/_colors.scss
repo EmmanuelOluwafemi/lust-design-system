@@ -1,0 +1,36 @@
+/**
+ *
+ * This file defines the actual colors that will be used for styling. Tey will default to the pallete
+ * we defined in _variables.scss file, This is our default pallete, and devs can override this
+ * with their own variables
+ *
+ */
+
+/*=============================================
+=               Global text colors            =
+=============================================*/
+$body-text-color: var(--lust-body-text-color, $dark) !default;
+$body-bg-color: var(--lust-body-bg-color, $white) !default;
+
+/*=============================================
+=                 Buttons                     =
+=============================================*/
+$btn-primary-color: var(--lust-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--lust-btn-primary-bg, $green) !default;
+$btn-primary-bg-hover: var(--lust-btn-primary-bg-hover, $green-light) !default;
+
+$btn-secondary-color: var(--lust-btn-secondary-color, $white) !default;
+$btn-secondary-bg: var(--lust-btn-secondary-bg, $dark) !default;
+
+/*=============================================
+=                     Forms                   =
+=============================================*/
+$form-border-color: var(--lust-form-border-color, $white-dark) !default;
+$form-color: var(--lust-form-color, $dark) !default;
+$form-bg-option-selected: var(--lust-form-bg-option-selected, $green) !default;
+$form-color-option-selected: var(--lust-form-color-option-selected, $white) !default;
+$form-bg-color: var(--lust-form-bg-color, $white) !default;
+$form-bg-color-hover: var(--lust-form-bg-color-hover, $white-dark) !default;
+$form-error-color: var(--lust-form-error-color, $red) !default;
+$form-error-border: var(--lust-form-error-border, $red-light) !default;
+$form-border-focus-color: var(--lust-form-border-focus-color, $green) !default;

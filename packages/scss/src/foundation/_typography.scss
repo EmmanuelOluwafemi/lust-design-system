@@ -1,0 +1,38 @@
+/*=============================================
+=           Foundation - Typography           =
+=============================================*/
+
+/**
+ * This file defines the default font sizes to be used on heading, body text, etc
+ * from the palette defined in _variables.scss.
+*/
+
+/*=============================================
+=               Body font sizes               =
+=============================================*/
+
+$body-font-size: var(--lust-body-font-size, $fs-sm) !default;
+$body-font-weight: var(--lust-body-font-weight, $fw-normal) !default;
+$body-font-family: var(--lust-body-font-family, $raleway) !default;
+
+/*=============================================
+=              Heading font sizes             =
+=============================================*/
+
+$h-1-font-size: var(--lust-h-1-font-size, $h-1) !default;
+$h-2-font-size: var(--lust-h-2-font-size, $h-2) !default;
+$h-3-font-size: var(--lust-h-3-font-size, $h-3) !default;
+$h-4-font-size: var(--lust-h-4-font-size, $h-4) !default;
+$h-5-font-size: var(--lust-h-5-font-size, $h-5) !default;
+$h-6-font-size: var(--lust-h-6-font-size, $h-6) !default;
+
+/*=============================================
+=            Heading font weights             =
+=============================================*/
+
+$h1-text-weight: var(--lust-h1-text-weight, $fw-black) !default;
+$h2-text-weight: var(--lust-h2-text-weight, $fw-semibold) !default;
+$h3-text-weight: var(--lust-h3-text-weight, $fw-bold) !default;
+$h4-text-weight: var(--lust-h4-text-weight, $fw-medium) !default;
+$h5-text-weight: var(--lust-h5-text-weight, $fw-normal) !default;
+$h6-text-weight: var(--lust-h6-text-weight, $fw-light) !default;

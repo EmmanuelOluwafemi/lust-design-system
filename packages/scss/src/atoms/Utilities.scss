@@ -1,0 +1,11 @@
+@import "foundation/all";
+
+@each $size, $value in $spacing {
+    .lust-width-#{$size} {
+        width: #{$value};
+    }
+    
+    .lust-height-#{$size} {
+        height: #{$value};
+    }
+}
